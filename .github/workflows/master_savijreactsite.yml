@@ -29,7 +29,7 @@ jobs:
 
       # Added Manual Zip
       - name: Zip artifact for deployment
-        run: zip release.zip ./* -qr
+        run: npx zip release.zip ./build/* -qr
       
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
