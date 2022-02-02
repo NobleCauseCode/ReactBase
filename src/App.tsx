@@ -6,7 +6,7 @@ function App() {
   const [name, setName] = useState('');
 
   return (
-    <div>
+    <div className='appStyle'>
       <h1>Hello World!</h1>
       <input
         className='name-input'
