@@ -7,6 +7,10 @@
   font-size: 16px;
 }
 
+body {
+  background-color: cornflowerblue;
+}
+
 .appStyle {
   background-color: cornflowerblue;
 }
