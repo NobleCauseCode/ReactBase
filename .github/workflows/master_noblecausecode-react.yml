@@ -60,4 +60,4 @@ jobs:
           app-name: 'noblecausecode-react'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_62BB6EFACF37467A8110458CC720AD83 }}
-          package: .
+          package: release.zip
