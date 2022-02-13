@@ -1,16 +1,43 @@
-.name-input {
-  width: 100%;
-  height: 40px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  padding: 0 10px;
-  font-size: 16px;
-}
-
 body {
-  background-color: cornflowerblue;
+  background-color: #333;
+  color: #fff;
+  height: 100vh;
 }
 
-.appStyle {
-  background-color: cornflowerblue;
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.leftContainer {
+  padding: 20px;
+  min-width: 250px;
+}
+
+.inboxContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.rightContainer {
+  padding: 20px;
+  flex: 1;
+}
+
+.itemContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid #fff;
+}
+
+.itemContainer:hover {
+  background-color: #666;
+  cursor: pointer;
+}
+
+.emailContainer {
+  margin-bottom: 20px;
 }
